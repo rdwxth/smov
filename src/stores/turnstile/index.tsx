@@ -108,7 +108,7 @@ export function TurnstileProvider(props: {
         }}
         onWidgetLoad={(widgetId) => {
           idRef.current = widgetId;
-          setTurnstile(widgetId, "sudo", !!props.isInPopout);
+          setTurnstile(widgetId, "watchamovie", !!props.isInPopout);
         }}
         onError={() => {
           const id = idRef.current;
